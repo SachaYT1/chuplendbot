@@ -1,4 +1,6 @@
-token = 'Nzk4NDUxNTQwNDEwMTA1ODY2.X_1N8Q.DyaRS_7zwGEq6BBYmVsQLKHPqIc'
+import os
+
+token = os.environ.get('BOT_TOKEN')
 
 POST_ID = 798468747626020904
 
